@@ -1,4 +1,6 @@
-﻿namespace _Hometask_referencevaluetypes
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace _Hometask_referencevaluetypes
 {
     internal class Program
     {
@@ -14,12 +16,24 @@
 
             //    Console.WriteLine(numbers[i]);
             #endregion
+            #region task 2
 
+            //{
+            //    Console.WriteLine(Repeat("Ha!"));
+            //    Console.WriteLine(Repeat("Ha!", 2));
+            //    Console.WriteLine(Repeat("Ha!", 3));
+            //}
 
-
-
-
-
+            //static string Repeat(string word, int count = 1)
+            //{
+            //    string result = "";
+            //    for (int i = 0; i < count; i++)
+            //    {
+            //        result += word;
+            //    }
+            //    return result;
+            //}
+            #endregion
             #region task5
             //Console.WriteLine("Hello, World!");
 
@@ -32,24 +46,33 @@
 
             //Console.WriteLine("Tersine Çevrilmiş söz: " + reversedWord);
             #endregion
-
-
-           
-            {
-                Console.WriteLine(Repeat("Ha!"));
-                Console.WriteLine(Repeat("Ha!", 2));
-                Console.WriteLine(Repeat("Ha!", 3));
-            }
-
-            static string Repeat(string word, int count = 1)
-            {
-                string result = "";
-                for (int i = 0; i < count; i++)
-                {
-                    result += word;
-                }
-                return result;
-            }
+            #region task8
+            //string lenght;
+            //string word = ( "sakaksm" );
+            // if (word.Length < 4)
+            //{
+            //    lenght =word.Length;
+            //}
+            //else
+            //{
+            //    lenght = 4;
+            //}
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write(word[i]);
+            //}
+            //Console.WriteLine();
+            #endregion
         }
+
+
+
+
+
+
+
+
+
     }
+    
 }
