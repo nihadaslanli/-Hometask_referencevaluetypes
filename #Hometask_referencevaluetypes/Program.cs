@@ -47,32 +47,42 @@ namespace _Hometask_referencevaluetypes
             //Console.WriteLine("Tersine Çevrilmiş söz: " + reversedWord);
             #endregion
             #region task8
-            //string lenght;
-            //string word = ( "sakaksm" );
-            // if (word.Length < 4)
+            //int lenght;
+
+            //string[] word = { "sakaksm" };
+            //if (word.Length < 4)
             //{
-            //    lenght =word.Length;
+            //    lenght = word[i];
             //}
             //else
             //{
             //    lenght = 4;
             //}
-            //for (int i = 0; i < length; i++)
+
+
+
+            //for (int i = 0; i < lenght; i++)
             //{
-            //    Console.Write(word[i]);
+
+            //    Console.WriteLine(word[i]);
             //}
             //Console.WriteLine();
+
+
+            #endregion
+            #region task4
+
+            //string[] word = ( "fdds" );
+            //if (word[i] == )
+
+
+
             #endregion
         }
 
 
 
 
-
-
-
-
-
     }
-    
 }
+
