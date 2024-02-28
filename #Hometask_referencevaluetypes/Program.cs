@@ -34,6 +34,26 @@ namespace _Hometask_referencevaluetypes
             //    return result;
             //}
             #endregion
+            #region task3
+            //string word = "tut";
+            //string newWord = "";
+
+            //for (int i = word.Length - 1; i >= 0; i--)
+            //{
+            //    newWord += word[i];
+            //}
+
+            //if (word == newWord)
+            //{
+
+            //    Console.WriteLine("palindromdu");
+            //}
+
+            //else
+            //    Console.WriteLine("palindrome deyil");
+
+
+            #endregion
             #region task5
             //Console.WriteLine("Hello, World!");
 
@@ -78,6 +98,9 @@ namespace _Hometask_referencevaluetypes
 
 
             #endregion
+
+
+
         }
 
 
